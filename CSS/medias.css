@@ -1,13 +1,4 @@
 
-/* HEADER  */
-@media (orientation: landscape) and (min-width: 400px)
-{
-    [headerBtn]
-    {
-        font-size       : 20pt;
-    } 
-}
-
 /* MAIN */
 
 @media (max-width:700px)
