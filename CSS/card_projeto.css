@@ -1,0 +1,74 @@
+
+.projects__item
+{
+    position         : relative;
+    width            : 300px  !important;
+    height           : 500px !important;
+    border           : 1px solid Black ;
+    
+    overflow         : hidden ;
+    
+}
+.project_header
+{
+    position         : absolute;
+    width            : 300px ;
+    height           : 300px ;
+    top              : 0 ;
+    border           : 1px solid Black ;
+}
+.project__description
+{
+    position         : absolute;
+    width            : 300px ;
+    height           : 200px ;
+    bottom           : 0 ;
+    border           : 1px solid Black ;
+  
+}
+.project__description h1
+{
+    font-size        :  12pt;
+    font-weight      : 900 ;
+    padding          : 10px ;
+}
+.project__description p
+{
+    width             :  90%;
+    margin            : auto;
+    text-align        : left ;
+    
+}
+.project_header img
+{
+    width: 300px;
+    height: 300px;
+
+    position         : absolute;
+    top              : 0 ;
+}
+
+
+.descriptions__links
+{
+    display         : flex ;
+
+    position        : absolute;
+    width           : 100%;
+    bottom          : 0;
+}
+.btn
+{
+    flex            : 1;
+
+    padding         : 10px;
+    text-decoration : none ;
+    text-align      : center ;
+    color           : white ;
+    background      : green ;
+}
+
+.btn--left
+{
+    border-left:  1px solid black ;
+}
